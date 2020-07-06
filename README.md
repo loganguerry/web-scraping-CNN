@@ -1,13 +1,16 @@
 ## Scraping NYSE data from CNN ##
 
-This script is intended to show simple usecases for the 'rvest' package. Here, I practice scraping live NYSE data from CNN's money webpage, and show some simplified methods for storing and transforming the resulting data.
+The primary script in this repo is intended to show a simple use case for the 'rvest' package. When run, the script will scrape live NYSE data from CNN's market report webpage, and show some simplified methods for storing and transforming the resulting data.
 
-#### Public Use
+#### Public Use Requests
   * please add anotated iterations of this script if you:
       * develope other rolling storage methods for the daily scraped data
       * have thoughts on automation
       * find a more concises indexing method for pulling specific values
       
-#### Working
+#### WIP
   * Notation for how to automate the scraping process on different time scales
-  * Scalable method for storing scraped data
+      * CRON
+  * Batch loads of flat files into object storage service (GCS/S3)
+      * To include SDK documentation
+  * change pull request
